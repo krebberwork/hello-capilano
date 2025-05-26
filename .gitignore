@@ -1,0 +1,82 @@
+# ------------------------------------------------------------------------------
+# General ignores
+# ------------------------------------------------------------------------------
+.DS_Store # macOS generated files
+Thumbs.db # Windows generated files
+*.log
+*.tmp
+*.bak
+*~.nib
+
+# ------------------------------------------------------------------------------
+# Maven
+# ------------------------------------------------------------------------------
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildHistory.xml
+.mvn/
+*.maven-artifact
+*.maven-plugin
+*.war
+*.jar
+*.ear
+
+# ------------------------------------------------------------------------------
+# Eclipse / Anypoint Studio
+# ------------------------------------------------------------------------------
+.project
+.classpath
+.settings/
+.externalToolBuilders/
+*.launch
+.cproject
+.buildpath
+.metadata/
+bin/
+tmp/
+tmp/**/*
+/workspace/ # If you have a workspace specific folder within the project
+
+# ------------------------------------------------------------------------------
+# IntelliJ IDEA
+# ------------------------------------------------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ------------------------------------------------------------------------------
+# Mule-specific ignores
+# ------------------------------------------------------------------------------
+.mule/ # Local Mule runtime deployment directory
+flows/ # Anypoint Studio specific temporary folder
+catalog/ # Anypoint Studio specific temporary folder
+/src/main/api/.repository/ # API definitions repository, often regenerated
+/reports # MUnit test reports
+objectstore/ # Local object store data
+muleEmbeddedDB/ # Embedded database files
+activemq-data/ # ActiveMQ data if used locally
+testdir/ # Temporary test directories
+hostkey.ser # SSH host keys, if generated locally
+*.h2.db # H2 database files (often used for embedded DBs)
+.studio/ # Anypoint Studio specific configuration
+
+# ------------------------------------------------------------------------------
+# Environment-specific properties (if not managed by profiles)
+# ------------------------------------------------------------------------------
+# If you have environment-specific property files (e.g., dev.properties, prod.properties)
+# that should NOT be committed with sensitive data, ignore them.
+# A better practice is to use Maven profiles or secure externalization.
+# For example, if you have a file named `config-local.yaml` for local development:
+# config-local.yaml
+
+# ------------------------------------------------------------------------------
+# MUnit
+# ------------------------------------------------------------------------------
+.munit/
