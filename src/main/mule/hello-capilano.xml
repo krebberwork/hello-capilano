@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="hello-capilano" doc:id="8cc83ee9-6d8d-4f3a-961b-e374fd9a492a" >
 		<http:listener doc:name="Listener" doc:id="abdb27cb-1ee8-4224-8fd1-550838f1d633" config-ref="HTTP_Listener_config" path="/hello"/>
-		<set-payload value='#["Hello Capilano University!"]' doc:name="Set Payload" doc:id="78e18b1e-c303-4cc1-9f78-0f845ff7d7a7" />
+		<set-payload value='#["Hello Capilano University! - new version"]' doc:name="Set Payload" doc:id="78e18b1e-c303-4cc1-9f78-0f845ff7d7a7" />
 	</flow>
 </mule>
