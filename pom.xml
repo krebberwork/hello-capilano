@@ -48,7 +48,7 @@
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
 						<deploymentTimeout>1000000</deploymentTimeout>
-						<skipDeploymentVerification>yes</skipDeploymentVerification>
+						<skipDeploymentVerification>true</skipDeploymentVerification>
 						<deploymentSettings>
 							<updateStrategy>rolling</updateStrategy>
 							<http>
