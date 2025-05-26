@@ -6,7 +6,7 @@
 
 	<groupId>91513aaf-7492-4168-9ed8-1c8019859eb7</groupId>
 	<artifactId>hello-capilano</artifactId>
-	<version>1.0.0-SHAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 
 	<name>hello-capilano</name>
